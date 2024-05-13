@@ -21,6 +21,7 @@ const Navbar = () => (
     <div className="nav-login-cart">
       <button type="submit">Login</button>
       <img src={cartIcon} alt="" />
+      <div className="nav-cart-count">0</div>
     </div>
   </div>
 );
