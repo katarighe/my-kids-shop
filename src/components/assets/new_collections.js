@@ -1,3 +1,4 @@
+/* eslint-disable */
 import p1_img from "./product_12.png";
 import p2_img from "./product_35.png";
 import p3_img from "./product_14.png";
