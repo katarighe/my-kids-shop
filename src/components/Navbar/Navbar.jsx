@@ -13,6 +13,7 @@ const Navbar = () => {
       </div>
       <ul className="nav-menu">
         <li
+          aria-hidden="true"
           onClick={() => {
             setMenu('shop');
           }}
@@ -26,6 +27,7 @@ const Navbar = () => {
           { menu === 'shop' ? <hr /> : null }
         </li>
         <li
+          aria-hidden="true"
           onClick={() => {
             setMenu('infants');
           }}
@@ -39,6 +41,7 @@ const Navbar = () => {
           { menu === 'infants' ? <hr /> : null }
         </li>
         <li
+          aria-hidden="true"
           onClick={() => {
             setMenu('children');
           }}
@@ -52,6 +55,7 @@ const Navbar = () => {
           {menu === 'children' ? <hr /> : null }
         </li>
         <li
+          aria-hidden="true"
           onClick={() => {
             setMenu('accessories');
           }}
