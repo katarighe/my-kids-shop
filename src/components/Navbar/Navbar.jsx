@@ -38,7 +38,7 @@ const Navbar = () => {
             }
           }}
         >
-          <Link to="/">Infants</Link>
+          <Link to="/infants">Infants</Link>
           {menu === 'infants' ? <hr /> : null}
         </li>
         <li
@@ -52,7 +52,7 @@ const Navbar = () => {
             }
           }}
         >
-          <Link to="/">Children</Link>
+          <Link to="/children">Children</Link>
           {menu === 'children' ? <hr /> : null}
         </li>
         <li
@@ -66,15 +66,15 @@ const Navbar = () => {
             }
           }}
         >
-          <Link to="/">Accessories</Link>
+          <Link to="/accessories">Accessories</Link>
           {menu === 'accessories' ? <hr /> : null}
         </li>
       </ul>
       <div className="nav-login-cart">
         <button type="submit" className="login">
-          Login
+          <Link to="/login">Login</Link>
         </button>
-        <img src={cartIcon} alt="" />
+        <Link to="/cart"><img src={cartIcon} alt="" /></Link>
         <div className="nav-cart-count">0</div>
       </div>
     </div>
