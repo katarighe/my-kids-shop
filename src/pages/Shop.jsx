@@ -1,10 +1,9 @@
 import React from 'react';
+import Hero from '../components/Hero/Hero';
 
 const Shop = () => (
   <div className="shop">
-    <h1>Welcome to My Kids Shop!</h1>
-    <p>Thank you for visiting our store.</p>
-    <p>Happy shopping!</p>
+    <Hero />
   </div>
 );
 
