@@ -24,7 +24,7 @@ const Navbar = () => {
             }
           }}
         >
-          <Link to="/test">Shop</Link>
+          <Link to="/">Shop</Link>
           {menu === 'shop' ? <hr /> : null}
         </li>
         <li
@@ -38,7 +38,7 @@ const Navbar = () => {
             }
           }}
         >
-          <Link to="/sample">Infants</Link>
+          <Link to="/">Infants</Link>
           {menu === 'infants' ? <hr /> : null}
         </li>
         <li
@@ -52,7 +52,7 @@ const Navbar = () => {
             }
           }}
         >
-          <Link to="/sample">Children</Link>
+          <Link to="/">Children</Link>
           {menu === 'children' ? <hr /> : null}
         </li>
         <li
@@ -66,7 +66,7 @@ const Navbar = () => {
             }
           }}
         >
-          <Link to="/sample">Accessories</Link>
+          <Link to="/">Accessories</Link>
           {menu === 'accessories' ? <hr /> : null}
         </li>
       </ul>
