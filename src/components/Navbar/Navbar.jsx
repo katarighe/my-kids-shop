@@ -1,7 +1,7 @@
 import React from 'react';
 import './Navbar.css';
-import logo from '../components/assets/logo-transparent.png';
-import carticon from '../components/assets/cart-icon.png';
+import logo from '../assets/logo-transparent.png';
+import cartIcon from '../assets/cart_icon.png';
 
 const Navbar = () => (
   <div className="navbar">
@@ -17,7 +17,7 @@ const Navbar = () => (
     </ul>
     <div className="nav-login-cart">
       <button type="submit">Login</button>
-      <img src={carticon} alt="" />
+      <img src={cartIcon} alt="" />
     </div>
   </div>
 );
