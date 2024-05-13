@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './Navbar.css';
 import logo from '../assets/logo-transparent.png';
 import cartIcon from '../assets/cart_icon.png';
@@ -23,8 +24,8 @@ const Navbar = () => {
             }
           }}
         >
-          Shop
-          { menu === 'shop' ? <hr /> : null }
+          <Link to="/test">Shop</Link>
+          {menu === 'shop' ? <hr /> : null}
         </li>
         <li
           aria-hidden="true"
@@ -37,8 +38,8 @@ const Navbar = () => {
             }
           }}
         >
-          Infants
-          { menu === 'infants' ? <hr /> : null }
+          <Link to="/sample">Infants</Link>
+          {menu === 'infants' ? <hr /> : null}
         </li>
         <li
           aria-hidden="true"
@@ -51,8 +52,8 @@ const Navbar = () => {
             }
           }}
         >
-          Children
-          {menu === 'children' ? <hr /> : null }
+          <Link to="/sample">Children</Link>
+          {menu === 'children' ? <hr /> : null}
         </li>
         <li
           aria-hidden="true"
@@ -65,12 +66,14 @@ const Navbar = () => {
             }
           }}
         >
-          Accessories
-          { menu === 'accessories' ? <hr /> : null }
+          <Link to="/sample">Accessories</Link>
+          {menu === 'accessories' ? <hr /> : null}
         </li>
       </ul>
       <div className="nav-login-cart">
-        <button type="submit" className="login">Login</button>
+        <button type="submit" className="login">
+          Login
+        </button>
         <img src={cartIcon} alt="" />
         <div className="nav-cart-count">0</div>
       </div>
