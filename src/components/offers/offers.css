@@ -21,6 +21,12 @@
   font-weight: 600;
 }
 
+.offers-left p {
+  font-size: 30px;
+  font-weight: 400;
+  padding-top: 10px;
+}
+
 .offers-left button {
   width: 282px;
   height: 70px;
