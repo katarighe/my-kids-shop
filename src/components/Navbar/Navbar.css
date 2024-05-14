@@ -40,6 +40,10 @@
   cursor: pointer;
 }
 
+.login a {
+  text-decoration: none;
+}
+
 .nav-menu li a {
   text-decoration: none;
 }
@@ -72,7 +76,7 @@
 
 .nav-login-cart button:active {
   background-color: #ff4141;
-  color: white;
+  color: #fff;
 }
 
 .nav-cart-count {
@@ -86,7 +90,7 @@
   border-radius: 11px;
   font-size: 14px;
   background: red;
-  color: white;
+  color: #fff;
 }
 
 .login {
