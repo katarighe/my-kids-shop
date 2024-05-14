@@ -44,6 +44,10 @@
   text-decoration: none;
 }
 
+.login a {
+  text-decoration: none;
+}
+
 .nav-menu hr {
   border: none;
   width: 80%;
@@ -92,8 +96,4 @@
 .login {
   font-family: "Lato", sans-serif;
   font-weight: 600;
-}
-
-.login a {
-  text-decoration: none;
 }
