@@ -1,11 +1,11 @@
 import React from 'react';
 import Hero from '../components/Hero/Hero';
-import popular from '../components/popular/popular';
+import Popular from '../components/popular/popular';
 
 const Shop = () => (
   <div className="shop">
     <Hero />
-    <popular />
+    <Popular />
   </div>
 );
 
