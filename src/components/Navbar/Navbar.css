@@ -72,7 +72,7 @@
 
 .nav-login-cart button:active {
   background-color: #ff4141;
-  color: white;
+  color: #fff;
 }
 
 .nav-cart-count {
@@ -86,10 +86,14 @@
   border-radius: 11px;
   font-size: 14px;
   background: red;
-  color: white;
+  color: #fff;
 }
 
 .login {
   font-family: "Lato", sans-serif;
   font-weight: 600;
+}
+
+.login a {
+  text-decoration: none;
 }
