@@ -7,7 +7,7 @@ import heroImage from '../assets/hero_image.png';
 const Hero = () => (
   <div className="hero">
     <div className="hero-left">
-      <h1>NEW ARRIVALS ONLY</h1>
+      <h2>NEW ARRIVALS ONLY</h2>
     </div>
     <div>
       <div className="hero-hand-icon">
@@ -17,7 +17,7 @@ const Hero = () => (
       <p>collections</p>
       <p>for everyone</p>
     </div>
-    <div className="div-hero-latest-button">
+    <div className="hero-latest-button">
       <div>Latest Collections</div>
       <img src={arrowIcon} alt="" />
     </div>
