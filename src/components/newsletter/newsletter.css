@@ -7,7 +7,7 @@
   justify-content: center;
   margin: auto;
   margin-bottom: 150px;
-  padding: 0px 140px;
+  padding: 0 140px;
   gap: 30px;
   background: linear-gradient(180deg, #fde1ff 0%, #5ccf7f22 80%);
 }
@@ -40,7 +40,7 @@
   border: none;
   outline: none;
   color: #616161;
-  font-family: "Lato";
+  font-family: "Lato", sans-serif;
   font-size: 16px;
 }
 
@@ -50,7 +50,7 @@
   border-radius: 80px;
   background: #000;
   color: #fff;
-  font-family: "Lato";
+  font-family: "Lato", sans-serif;
   font-size: 16px;
   cursor: pointer;
 }
