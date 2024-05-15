@@ -29,7 +29,7 @@ const footer = () => (
         <img src={whatsappIcon} alt="" />
       </div>
       <div className="div-footer-copyright">
-        <p>&copy; 2021 My Kids Shop</p>
+        <p>&copy; 2024 My Kids Shop</p>
       </div>
     </div>
   </div>
