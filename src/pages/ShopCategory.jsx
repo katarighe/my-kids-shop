@@ -37,6 +37,9 @@ const ShopCategory = ({ banner, category }) => {
           return null;
         })}
       </div>
+      <div className="shopcategory-loadmore">
+        Explore More
+      </div>
     </div>
   );
 };
