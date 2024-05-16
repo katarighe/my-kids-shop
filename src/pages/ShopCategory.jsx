@@ -9,8 +9,8 @@ const ShopCategory = ({ banner, category }) => {
   const { allProduct } = useContext(ShopContext);
   return (
     <div className="shop-category">
-      <img src={banner} alt="" />
-      <div className="div-shoepcategory-indexSort">
+      <img className="shopcategory-banner" src={banner} alt="" />
+      <div className="div-shopcategory-indexSort">
         <p>
           <span>Showing 1-12</span>
           out of 36 products
