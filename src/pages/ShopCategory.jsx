@@ -15,10 +15,10 @@ const ShopCategory = ({ banner, category }) => {
           <span>Showing 1-12</span>
           out of 36 products
         </p>
-      </div>
-      <div className="shopcategory-sort">
-        Sort by
-        <img src={dropdownIcon} alt="" />
+        <div className="shopcategory-sort">
+          Sort by
+          <img src={dropdownIcon} alt="" />
+        </div>
       </div>
       <div className="shopcategory-products">
         {allProduct.map((item) => {
@@ -37,9 +37,7 @@ const ShopCategory = ({ banner, category }) => {
           return null;
         })}
       </div>
-      <div className="shopcategory-loadmore">
-        Explore More
-      </div>
+      <div className="shopcategory-loadmore">Explore More</div>
     </div>
   );
 };
