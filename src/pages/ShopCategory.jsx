@@ -10,17 +10,17 @@ const ShopCategory = ({ banner, category }) => {
   return (
     <div className="shop-category">
       <img className="shopcategory-banner" src={banner} alt="" />
-      <div className="div-shopcategory-indexSort">
+      <div className="shopcategory-indexSort">
         <p>
           <span>Showing 1-12</span>
           out of 36 products
         </p>
       </div>
-      <div className="div-shopecategory-sort">
+      <div className="shopcategory-sort">
         Sort by
         <img src={dropdownIcon} alt="" />
       </div>
-      <div className="div-shopcategory-products">
+      <div className="shopcategory-products">
         {allProduct.map((item) => {
           if (category === item.category) {
             return (
