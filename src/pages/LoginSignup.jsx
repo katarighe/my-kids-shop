@@ -9,8 +9,11 @@ const LoginSignup = () => (
         <input type="text" placeholder="Name" />
         <input type="email" placeholder="Email address" />
         <input type="password" placeholder="Your password" />
+        <input type="password" placeholder="Comfirm password" />
       </div>
+      <br />
       <button type="button">Continue</button>
+      <br />
       <p className="loginsignup-login">
         Already have an account?
         <span>Login</span>
