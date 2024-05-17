@@ -4,8 +4,8 @@ import './descriptionbox.css';
 const descriptionbox = () => (
   <div className="descriptionbox">
     <div className="description-box-navigator">
-      <div className="description-nax-box">Description</div>
-      <div className="description-nax-box">Reviews (122)</div>
+      <div className="description-nav-box">Description</div>
+      <div className="description-nav-box fade">Reviews (122)</div>
     </div>
     <div className="descriptionbox-description">
       <p>
