@@ -9,9 +9,11 @@ const Product = () => {
   const { productId } = useParams();
   const product = allProduct.find((e) => e.id === Number(productId));
   return (
-    <div className="breadcrum">
+    <div>
       <Breadcrum product={product} />
-      <ProductDisplay product={product} />
+      <div>
+        <ProductDisplay product={product} />
+      </div>
     </div>
   );
 };
