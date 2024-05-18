@@ -30,6 +30,7 @@ const CartItems = () => {
                 <p>{e.new_price * cartItems[e.id]}</p>
                 {/* eslint-disable-next-line jsx-a11y/no-noninteractive-element-interactions */}
                 <img
+                  className="cartitems-remove-icon"
                   src={removeIcon}
                   onClick={() => removeFromCart(e.id)}
                   onKeyDown={() => removeFromCart(e.id)}
