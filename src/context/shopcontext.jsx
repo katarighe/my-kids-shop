@@ -16,11 +16,25 @@ const ShopContextProvider = (props) => {
   const [cartItems, setCartItems] = useState(getDefaultCart());
 
   const addToCart = (itemId) => {
-    setCartItems((prev) => ({ ...prev, [itemId]: prev[itemId] + 1 }));
+    if (itemId in cartItems) {
+      // eslint-disable-next-line
+      console.log(`Adding item ${itemId} to cart`);
+      setCartItems((prev) => ({ ...prev, [itemId]: prev[itemId] + 1 }));
+    } else {
+      // eslint-disable-next-line
+      console.error(`Item ID ${itemId} is not valid`);
+    }
   };
 
   const removeFromCart = (itemId) => {
-    setCartItems((prev) => ({ ...prev, [itemId]: prev[itemId] - 1 }));
+    if (itemId in cartItems) {
+      // eslint-disable-next-line
+      console.log(`Removing item ${itemId} from cart`);
+      setCartItems((prev) => ({ ...prev, [itemId]: prev[itemId] - 1 }));
+    } else {
+      // eslint-disable-next-line
+      console.error(`Item ID ${itemId} is not valid`);
+    }
   };
 
   const { children } = props;
@@ -30,6 +44,7 @@ const ShopContextProvider = (props) => {
     cartItems,
     addToCart,
     removeFromCart,
+    // eslint-disable-next-line
   }), [cartItems]);
 
   return (
