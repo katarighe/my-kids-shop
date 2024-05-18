@@ -6,7 +6,7 @@ export const ShopContext = createContext(null);
 
 const getDefaultCart = () => {
   const cart = {};
-  for (let index = 0; index < allProduct.length+1; index ++) {
+  for (let index = 0; index < allProduct.length; index += 1) {
     cart[index] = 0;
   }
   return cart;
@@ -14,7 +14,6 @@ const getDefaultCart = () => {
 
 const ShopContextProvider = (props) => {
   const [cartItems, setCartItems] = useState(getDefaultCart());
-  const contextValue = useMemo(() => ({ allProduct, cartItems }), [allProduct, cartItems]);
 
   const addToCart = (itemId) => {
     setCartItems((prev) => ({ ...prev, [itemId]: prev[itemId] + 1 }));
@@ -26,9 +25,17 @@ const ShopContextProvider = (props) => {
 
   const { children } = props;
 
-  const contextValue = {allProduct, cartItems, addToCart, removeFromCart};
+  const contextValue = useMemo(() => ({
+    allProduct,
+    cartItems,
+    addToCart,
+    removeFromCart,
+  }), [cartItems]);
+
   return (
-    <ShopContext.Provider value={contextValue}>{children}</ShopContext.Provider>
+    <ShopContext.Provider value={contextValue}>
+      {children}
+    </ShopContext.Provider>
   );
 };
 
