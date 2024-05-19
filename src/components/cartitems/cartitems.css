@@ -35,7 +35,7 @@
 }
 
 .cart-items-quantity {
-  width: 64pxx;
+  width: 64px;
   height: 50px;
   border: 2px solid #ebebeb;
   background: #fff;
@@ -43,7 +43,7 @@
 
 .cart-items-down {
   display: flex;
-  margin: 100px 0px;
+  margin: 100px 0;
 }
 
 .cart-items-total {
