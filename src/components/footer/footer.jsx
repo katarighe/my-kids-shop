@@ -9,7 +9,7 @@ const footer = () => (
   <div className="footer">
     <div className="footer-logo">
       <img src={footerLogo} alt="" />
-      <p>THE KIDS SHOP</p>
+      <p>DHALAN KIDS SHOP</p>
     </div>
     <ul className="footer-links">
       <li>Company</li>
@@ -29,7 +29,7 @@ const footer = () => (
         <img src={whatsappIcon} alt="" />
       </div>
       <div className="div-footer-copyright">
-        <p>&copy; 2024 The Kids Shop</p>
+        <p>&copy; 2024 Dhalan Kids Shop</p>
       </div>
     </div>
   </div>
