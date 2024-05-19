@@ -37,11 +37,23 @@ const ShopContextProvider = (props) => {
     }
   };
 
+  const getTotalCartAmount = () => {
+    let totalAmount = 0;
+    Object.keys(cartItems).forEach((item) => {
+      if (cartItems[item] > 0) {
+        const itemInfo = allProduct.find((product) => product.id === Number(item));
+        totalAmount += itemInfo.new_price * cartItems[item];
+      }
+    });
+    return totalAmount;
+  };
+
   const { children } = props;
 
   const contextValue = useMemo(() => ({
     allProduct,
     cartItems,
+    getTotalCartAmount,
     addToCart,
     removeFromCart,
     // eslint-disable-next-line
