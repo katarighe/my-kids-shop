@@ -14,7 +14,7 @@ const Navbar = () => {
     <div className="navbar">
       <div className="nav-logo">
         <img src={logo} alt="" />
-        <p>THE KIDS SHOP</p>
+        <p>DHALAN KIDS SHOP</p>
       </div>
       <ul className="nav-menu">
         <li
