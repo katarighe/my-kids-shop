@@ -38,6 +38,8 @@
     ]
   },
   "devDependencies": {
-    "eslint-config-airbnb": "^19.0.4"
+    "eslint-config-airbnb": "^19.0.4",
+    "stylelint": "^16.5.0",
+    "stylelint-config-standard": "^36.0.0"
   }
 }
