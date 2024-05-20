@@ -8,7 +8,7 @@ import Cart from './pages/Cart';
 import LoginSignup from './pages/LoginSignup';
 import Footer from './components/footer/footer';
 import menBanner from './components/assets/banner_mens.png';
-import womenBanner from './components/assets/banner_women.png';
+import childrenBanner from './components/assets/banner_women.png';
 import kidsBanner from './components/assets/banner_kids.png';
 
 function App() {
@@ -24,7 +24,7 @@ function App() {
           />
           <Route
             path="/children"
-            element={<ShopCategory banner={womenBanner} category="children" />}
+            element={<ShopCategory banner={childrenBanner} category="children" />}
           />
           <Route
             path="/accessories"
