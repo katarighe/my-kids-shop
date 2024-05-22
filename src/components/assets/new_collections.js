@@ -68,3 +68,5 @@ let new_collections = [
 ];
 
 export default new_collections;
+
+// Path: src/components/assets/popular_products.js
