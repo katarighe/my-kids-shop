@@ -135,7 +135,7 @@ let all_product = [
   },
   {
     id: 13,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+    name: "Infant Soft Cotton Swaddle Blanket",
     category: "infants",
     image: p13_img,
     new_price: 85.0,
@@ -143,7 +143,7 @@ let all_product = [
   },
   {
     id: 14,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+    name: "Infant Plush Teddy Bear Toy",
     category: "infants",
     image: p14_img,
     new_price: 85.0,
@@ -151,7 +151,7 @@ let all_product = [
   },
   {
     id: 15,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+    name: "Infant Gentle Baby Shampoo",
     category: "infants",
     image: p15_img,
     new_price: 85.0,
@@ -159,7 +159,7 @@ let all_product = [
   },
   {
     id: 16,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+    name: "Infant Organic Cotton Onesie",
     category: "infants",
     image: p16_img,
     new_price: 85.0,
@@ -167,7 +167,7 @@ let all_product = [
   },
   {
     id: 17,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+    name: "Infant Crib Mobile with Music",
     category: "infants",
     image: p17_img,
     new_price: 85.0,
@@ -175,7 +175,7 @@ let all_product = [
   },
   {
     id: 18,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+    name: "Infant Waterproof Bib",
     category: "infants",
     image: p18_img,
     new_price: 85.0,
@@ -183,7 +183,7 @@ let all_product = [
   },
   {
     id: 19,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+    name: "Infant Stroller Organizer",
     category: "infants",
     image: p19_img,
     new_price: 85.0,
@@ -191,7 +191,7 @@ let all_product = [
   },
   {
     id: 20,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+    name: "Infant Teething Ring",
     category: "infants",
     image: p20_img,
     new_price: 85.0,
@@ -199,7 +199,7 @@ let all_product = [
   },
   {
     id: 21,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+    name: "Infant Diaper Bag Backpack",
     category: "infants",
     image: p21_img,
     new_price: 85.0,
@@ -207,7 +207,7 @@ let all_product = [
   },
   {
     id: 22,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+    name: "Infant Pacifier Set",
     category: "infants",
     image: p22_img,
     new_price: 85.0,
@@ -215,7 +215,7 @@ let all_product = [
   },
   {
     id: 23,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+    name: "Infant Hooded Towel",
     category: "infants",
     image: p23_img,
     new_price: 85.0,
@@ -223,7 +223,7 @@ let all_product = [
   },
   {
     id: 24,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+    name: "Infant Activity Playmat",
     category: "infants",
     image: p24_img,
     new_price: 85.0,
