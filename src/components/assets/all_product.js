@@ -39,7 +39,7 @@ import p36_img from "./product_36.png";
 let all_product = [
   {
     id: 1,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "Toy Building Blocks Set",
     category: "children",
     image: p1_img,
     new_price: 50.0,
@@ -47,7 +47,7 @@ let all_product = [
   },
   {
     id: 2,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "Plush Teddy Bear",
     category: "children",
     image: p2_img,
     new_price: 85.0,
@@ -55,7 +55,7 @@ let all_product = [
   },
   {
     id: 3,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "Interactive Learning Tablet",
     category: "children",
     image: p3_img,
     new_price: 60.0,
@@ -63,7 +63,7 @@ let all_product = [
   },
   {
     id: 4,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "Remote Control Car",
     category: "children",
     image: p4_img,
     new_price: 100.0,
@@ -71,7 +71,7 @@ let all_product = [
   },
   {
     id: 5,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "Dollhouse Playset",
     category: "children",
     image: p5_img,
     new_price: 85.0,
@@ -79,7 +79,7 @@ let all_product = [
   },
   {
     id: 6,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "Kids' Puzzle Game",
     category: "children",
     image: p6_img,
     new_price: 85.0,
@@ -87,7 +87,7 @@ let all_product = [
   },
   {
     id: 7,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "Toy Train Set",
     category: "children",
     image: p7_img,
     new_price: 85.0,
@@ -95,7 +95,7 @@ let all_product = [
   },
   {
     id: 8,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "Stuffed Animal Collection",
     category: "children",
     image: p8_img,
     new_price: 85.0,
@@ -103,7 +103,7 @@ let all_product = [
   },
   {
     id: 9,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "Kids' Art Supplies Kit",
     category: "children",
     image: p9_img,
     new_price: 85.0,
@@ -111,7 +111,7 @@ let all_product = [
   },
   {
     id: 10,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "Toy Kitchen Set",
     category: "children",
     image: p10_img,
     new_price: 85.0,
@@ -119,7 +119,7 @@ let all_product = [
   },
   {
     id: 11,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "Children's Book Set",
     category: "children",
     image: p11_img,
     new_price: 85.0,
@@ -127,7 +127,7 @@ let all_product = [
   },
   {
     id: 12,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "Ride-On Toy Car",
     category: "children",
     image: p12_img,
     new_price: 85.0,
