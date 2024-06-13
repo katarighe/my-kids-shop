@@ -70,8 +70,8 @@ const Navbar = () => {
             }
           }}
         >
-          <Link to="/accessories">Accessories</Link>
-          {menu === 'accessories' ? <hr /> : null}
+          <Link to="/apparel">Apparel</Link>
+          {menu === 'apparel' ? <hr /> : null}
         </li>
       </ul>
       <div className="nav-login-cart">
