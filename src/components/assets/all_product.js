@@ -79,7 +79,7 @@ let all_product = [
   },
   {
     id: 6,
-    name: "Pleated Skirt",
+    name: "Winter Jacket",
     category: "children",
     image: p6_img,
     new_price: 25.0,
