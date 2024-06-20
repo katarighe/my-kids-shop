@@ -9,7 +9,7 @@ import LoginSignup from './pages/LoginSignup';
 import Footer from './components/footer/footer';
 import infantsBanner from './components/assets/banner_mens.png';
 import childrenBanner from './components/assets/banner_women.png';
-import accessoriesBanner from './components/assets/banner_kids.png';
+import apparelBanner from './components/assets/banner_kids.png';
 
 function App() {
   return (
@@ -27,8 +27,8 @@ function App() {
             element={<ShopCategory banner={childrenBanner} category="children" />}
           />
           <Route
-            path="/accessories"
-            element={<ShopCategory banner={accessoriesBanner} category="accessories" />}
+            path="/apparel"
+            element={<ShopCategory banner={apparelBanner} category="apparel" />}
           />
           <Route path="/product" element={<Product />}>
             <Route path=":productId" element={<Product />} />
